@@ -1,0 +1,291 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+    font-size: 62.5%;
+    font-family: 'microsoft YaHei';
+    background: #f9f1cd;
+}
+
+.fix{
+    background: #fe620d;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.banner,.hdrk{
+    width : 42%;
+    margin: 0 auto;
+    position: relative;
+}
+
+img[title]{
+    margin-top: -4px;
+}
+
+.btn-left{
+    width: 35%;
+    position: absolute;
+    top: 10%;
+    left: 13%;
+    cursor: pointer;
+}
+
+.btn-right{
+    width: 35%;
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    cursor: pointer;
+}
+
+.fix p{
+    width: 35%;
+    margin: 30px auto;
+    padding: 15px;
+    border-radius: 5px;
+    background: #d23c07;
+    font-size: 21px;
+    font-size: 2.1rem;
+    color: #fff;
+}
+
+.win{
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    display: none;
+}
+
+.win-per{
+    margin-top: -100px;
+    display: none;
+}
+
+.win-son{
+    width: 514px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.win-son span{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 40px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.son-bot{
+    width: 514px;
+    height: 127px;
+    margin: 0 auto;
+    background: #f3f3f3;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.son-bot p{
+    width: 100%;
+    text-align: center;
+    padding-top: 11.5px;
+    margin: 0 auto;
+    color: #ff4338;
+    font-size: 19px;
+}
+
+.button{
+    width: 240px;
+    font-size: 30px;
+    background: #ff4338;
+    color: #fff;
+    border-radius: 10px;
+    padding: 6px 0;
+    margin: 20px auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+.con{
+    width: 640px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.numer-per{
+    width: 480px;
+    height: 88px;
+    padding: 5px 0;
+    margin: 0 auto;
+    border: 3px solid #2be6fc;
+    border-radius: 6px;
+    background: #f4f4f4;
+}
+
+.numer-per p{
+    height: 30px;
+    width: 100%;
+    font-size: 20px;
+    font-size: 2.0rem;
+    color: #0d8093;
+    font-weight: 600;
+    text-align: center;
+}
+
+.numer-per p span{
+    color: #f02929;
+}
+
+.numer-per p[title]{
+    font-size: 26px;
+    font-size: 2.6rem;
+    margin-top: 10px;
+}
+
+.numer-per p[title] span{
+    font-size: 28px;
+    font-size: 2.8rem;
+    margin-right: 5px;
+}
+
+.per{
+    width: 100%;
+    margin: 15px auto 50px auto;
+    position: relative;
+}
+
+.cloud{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.coin{
+    width: 137px;
+    height: 177px;
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+    left: 39%;
+    cursor: pointer;
+}
+
+.circle{
+    width: 413px;
+    height: 414px;
+    margin: 0 auto;
+}
+
+.bag{
+    width: 100%;
+    margin-top: -120px;
+}
+
+a{
+    text-decoration: none;
+    color: #0d8093;
+    font-weight: 600;
+    font-size: 23px;
+    font-size: 2.3rem;
+}
+
+a[title]{
+    float: right;
+}
+
+@media screen and (max-width: 970px){
+    .banner,.hdrk{
+        width: 100%;
+    }
+
+    .fix p{
+        width: 80%;
+        font-size: 14px;
+        font-size: 1.4rem;
+    }
+
+    .numer-per{
+        width: 75%;
+        height: 50px;
+    }
+
+    .numer-per p{
+        font-size: 14px;
+        font-size: 1.4rem;
+    }
+
+    .numer-per p[title]{
+        font-size: 14px;
+        font-size: 1.4rem;
+        margin: 0;
+    }
+    .numer-per p[title] span{
+        font-size: 16px;
+        font-size: 1.6rem;
+    }
+
+    .con{
+        width: 100%;
+    }
+
+    .circle{
+        width: 70%;
+        height: 70%;
+    }
+
+    .coin{
+        width: 25%;
+        height: 25%;
+        top: 19%;
+        left: 37.5%;
+    }
+
+    .bag{
+        width: 100%;
+        margin-top: -50px;
+    }
+
+    a{
+        font-size: 16px;
+        font-size: 1.6rem;
+    }
+
+    .win-son{
+        width: 70%;
+        height: auto;
+    }
+
+    .win-son span{
+        font-size: 30px;
+    }
+
+    .son-bot{
+        width: 70%;
+        height: 110px;
+        margin: -4px auto 0 auto;
+    }
+
+    .son-bot p{
+        font-size: 12px;
+    }
+
+    .button{
+        width: 70%;
+        font-size: 20px;
+    }
+}
